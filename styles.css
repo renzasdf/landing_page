@@ -1,0 +1,236 @@
+body, html {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #1f2937;
+    color:white;
+    height: 50px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+header > .header-logo {
+    margin-left:50px;
+    font-size:1.2rem;
+    font-weight: bold;
+    flex: 1;
+    
+}
+
+header > nav {
+    display: flex;
+    flex: 1;
+    gap:20px;
+}
+
+header > nav > div > a {
+    color: white;
+    text-decoration: none;  
+}
+
+#first {
+    display: flex;
+    background-color: #1f2937;
+    color:white;
+    padding-bottom: 50px;
+}
+
+#first > .content-container {
+    margin-left:50px;
+    color: #f9faf8;
+    flex: 1;
+    width: 70%;
+}
+
+#first > .content-image {
+    background:gray;
+    flex: 1;
+    height: 300px;
+    background-image: url(https://images.pexels.com/photos/1563604/pexels-photo-1563604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+#first > .content-container > .title {
+    font-size: 48px;
+    font-weight: extra-bold; 
+}
+
+#first > .content-container > p {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-right: 30px;
+}
+
+#first > .content-container > button {
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+    background-color: #3882f6;
+    color:white;
+}
+
+#first > .content-container > button:hover {
+    cursor: pointer;
+    background-color: #2e4a72;
+}
+
+#second {
+    background-color:white;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#second > .title > .items-container {
+    display:flex;
+    gap: 50px;
+}
+
+#second > .title > p {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+#second > .title > .items-container > .items {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    flex: 1;
+}
+
+#second > .title > .items-container > .item1 {
+    background-image: url(https://images.pexels.com/photos/1995730/pexels-photo-1995730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#second > .title > .items-container > .item2 {
+    background-image: url(https://images.pexels.com/photos/6037/nature-forest-trees-path.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#second > .title > .items-container > .item3 {
+    background-image: url(https://images.pexels.com/photos/12687061/pexels-photo-12687061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#second > .title > .items-container > .item4 {
+    background-image: url(https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#third {
+    display: flex;
+    background-color:#e5e7eb;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+#third > p {
+    padding: 100px 500px;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#fourth {
+    background-color: white;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fourth > .container {
+    height: 100px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fourth > .container > .content {
+    display: flex;
+    height: 70px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#fourth > .container > .content > .item1 {
+    color:white;
+    flex: 2;
+}
+
+.item1-content {
+    font-size: 12px;
+}
+
+#fourth > .container > .item2 {
+    flex: 1;
+}
+
+#fourth > .container > .content > .item2 > button {
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 2px 25px;
+    background-color: #3882f6;
+    color:white;
+}
+
+#fourth > .container > .content > .item2 > button:hover {
+    cursor: pointer;
+    background-color: #2e4a72;
+}
+
+footer {
+    height:100px;
+    background-color: #1f2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > .icon-container {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > .icon-container > i {
+    flex:1;
+}
+
+footer > .icon-container > i:hover {
+    cursor: pointer;
+}
+
+
+
